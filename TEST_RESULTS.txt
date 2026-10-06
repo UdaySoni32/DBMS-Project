@@ -1,0 +1,14 @@
+PASS  seed contains five rows in each of the seven tables
+PASS  student form inserts and displays a new record
+PASS  student edit form updates the database record
+PASS  delete action removes the selected student
+PASS  duplicate roll number is rejected by UNIQUE constraint
+PASS  payment with missing student is rejected by foreign key
+PASS  negative payment is rejected by CHECK constraint
+PASS  allocation refuses a room beyond its capacity
+PASS  allocation refuses a second active room for one student
+PASS  occupancy report returns all three hostels
+PASS  open request report returns four unresolved requests
+PASS  empty student form is blocked without changing row count
+
+12 checks passed.
